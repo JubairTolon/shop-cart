@@ -7,7 +7,7 @@ const Item = ({ item }) => {
             <h1 className='font-semibold'>{item.name}</h1>
             <div className='flex justify-between'>
                 <div>{item.price}</div>
-                <div className='text-red-500'>{item.discount}%</div>
+                <div className='text-red-500'>{item.discount}% off</div>
             </div>
         </div>
     );

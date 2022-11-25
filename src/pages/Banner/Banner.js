@@ -18,7 +18,6 @@ const Banner = () => {
             <div>
                 <h1 className='font-semibold text-xl'>hot deals for Your</h1>
                 <div className='divider my-0'></div>
-                <p>{items.length}</p>
                 <div className='grid sm:grid-cols-1 lg:grid-cols-3  md:grid-cols-2 gap-20'>
                     {
                         items.map(item => <Item
